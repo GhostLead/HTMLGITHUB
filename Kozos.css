@@ -30,13 +30,17 @@ body{
 table {
     display: flex;
     width: 500px;
-    border: 2px solid white;
-    border-radius: 4px;
+    border: 2px ridge white;
+    border-radius: 2px;
     padding: 10px;
     border-spacing: 10px;
     text-align: center;
     margin-top: 10px;
 } 
+
+.headcella {
+    border-style: solid;
+}
 
 td{
     border: 1px dotted white;
@@ -44,17 +48,23 @@ td{
     height: 50px;
 }
 
+a {
+    width: 100px;
+    cursor: default;
+}
+
 input {
     width: 100px;
     height: 30px;
-    background-color: burlywood;
+    background-color: gray;
     color: black;
     font-weight: bold;
-    border: 2px solid red;
-    border-radius: 10px;
+    border: 2px solid darkgray;
+    border-radius: 5px;
 }
 
 input:hover {
-    background-color: bisque;
+    background-color: lightgray;
     font-style: oblique;
+    cursor: pointer;
 }
